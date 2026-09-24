@@ -78,8 +78,38 @@ public class HospitalManagementSystem {
                  case 5:
                      System.out.println("Total Patients: " + patients.size());
                     break;
+                  case 6:
+                      System.out.print("Enter Patient ID to Update: ");
+                      int updateId = sc.nextInt();
+                       sc.nextLine();
+
+                        boolean updated = false;
+
+                    for (Patient p : patients) {
+                         if (p.patientId == updateId) {
+
+            System.out.print("Enter New Name: ");
+            p.patientName = sc.nextLine();
+
+            System.out.print("Enter New Age: ");
+            p.age = sc.nextInt();
+            sc.nextLine();
+
+            System.out.print("Enter New Disease: ");
+            p.disease = sc.nextLine();
+
+            updated = true;
+            System.out.println("Patient Updated Successfully!");
+            break;
+        }
+    }
+
+    if (!updated) {
+        System.out.println("Patient Not Found!");
+    }
+    break;
    
-                case 6:
+                case 7:
                     System.out.println("Thank You!");
                     sc.close();
                     return;
