@@ -75,8 +75,11 @@ public class HospitalManagementSystem {
                     patients.removeIf(p -> p.patientId == deleteId);
                     System.out.println("Patient Deleted Successfully!");
                     break;
-
-                case 5:
+                 case 5:
+                     System.out.println("Total Patients: " + patients.size());
+                    break;
+   
+                case 6:
                     System.out.println("Thank You!");
                     sc.close();
                     return;
