@@ -26,3 +26,10 @@ A console-based Java application for managing patient records.
 
 - `HospitalManagementSystem.java` – Main program containing the menu and patient management operations.
 - `Patient.java` – Defines the Patient class and stores patient details.
+
+## How to Run
+
+1. Clone the repository.
+2. Open the project in a Java-supported IDE.
+3. Compile and run `HospitalManagementSystem.java`.
+4. Follow the menu options displayed in the console.
