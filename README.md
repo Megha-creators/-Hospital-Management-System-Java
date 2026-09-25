@@ -21,3 +21,8 @@ A console-based Java application for managing patient records.
 - Scanner
 - OOP concepts
 - Lambda expression
+
+## Project Structure
+
+- `HospitalManagementSystem.java` – Main program containing the menu and patient management operations.
+- `Patient.java` – Defines the Patient class and stores patient details.
