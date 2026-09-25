@@ -33,3 +33,10 @@ A console-based Java application for managing patient records.
 2. Open the project in a Java-supported IDE.
 3. Compile and run `HospitalManagementSystem.java`.
 4. Follow the menu options displayed in the console.
+
+## Future Improvements
+
+- Add a database to store patient records permanently.
+- Add a graphical user interface.
+- Add login and authentication.
+- Add doctor and appointment management.
